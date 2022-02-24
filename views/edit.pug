@@ -1,0 +1,35 @@
+block content
+    link(href="./login.css" rel="stylesheet")
+    style(type='text/css').
+            body{
+                background: #FF7F50;
+                color: black;
+                text-align: center;
+                margin: 100px;
+            }
+            label{
+                color: black;
+                text-align: center; 
+            }
+            .form {
+                max-width: none;
+            }
+
+    div.form
+        form(id='form' method='post' action='/edit/' + person._id)
+            label(for='name') Username: 
+            input(type='text' name='name' value=person.name)
+            br
+            label(for='password') Password:
+            input(type='text' name='password' value=person.password)
+            br
+            label(for='image') Add image: 
+            input(type='text' name='image' value=person.image)
+            input(type='text' name='usrtext' placeholder='Enter Text' value=person.usrtext)
+            input(type="submit" value='Send It')
+            br
+            a(href='/view/' + person._id) view
+            br
+            br
+            a(href='/picture') Edit Picture
+            br

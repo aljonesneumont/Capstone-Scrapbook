@@ -1,0 +1,54 @@
+block content
+    link(href="./login.css" rel="stylesheet")
+    style(type='text/css').
+            body {
+                background: linear-gradient(#65F0C6, #BBA3F0) no-repeat center center fixed;
+            }
+            .page p {
+                text-align: right
+            }
+            h1 {
+                text-align: center; 
+                font-size: 30px
+            }
+            h3 {
+                text-align: center;
+            }
+            .formone {
+                z-index: 1;
+                background: #FFFFFF;
+                max-width: 350px;
+                float: right;
+                padding: 45px;
+                text-align: center;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            }
+            .formtwo {
+                z-index: 1;
+                background: #FFFFFF;
+                max-width: 350px;
+                float: left;
+                padding: 45px;
+                text-align: center;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            }
+           
+            
+    body 
+        div.page
+            p 
+                a(href='/login') Sign In |
+                a(href='/create')  Sign Up
+            h1 Welcome to Scrappy!
+            h3 Come add and edit your pictures with ease. You can add silly comments and dates to remember when you took your marvelous pictures
+            h3 Here's what you can do: 
+        div.formone
+            p By: Lisa Simpson
+            img(width=300 src="./outdoors.jpg")
+            p March 14, 2019
+            p Took this while hiking with some buddies! It was a beautiful day.
+        div.formtwo
+            p By: Charles Barkley
+            img(width=300 src="./mountain.jpg")
+            p December 6, 2015
+            p Finally made it to the top... It looks great up here.

@@ -1,0 +1,32 @@
+block content
+        link(href="/login.css" rel="stylesheet")
+        style(type='text/css').
+                body{
+                    background: #FF7F50;
+                    color: black;
+                    text-align: center;
+                    margin: 100px;
+                }
+                label{
+                    color: black;
+                    text-align: center; 
+                }
+                .form {
+                    position: relative;
+                    z-index: 1;
+                    background: #FFFFFF;
+                    max-width: 360px;
+                    margin: 0 auto 100px;
+                    padding: 45px;
+                    text-align: center;
+                    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+                }
+
+        div.form
+            p By: #{person.name}
+            br
+            p 
+                img(width=300 src=person.image) 
+            br
+            p #{person.text}
+            br

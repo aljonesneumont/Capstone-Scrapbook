@@ -1,0 +1,26 @@
+block content
+    link(href="./login.css" rel="stylesheet")
+    style(type='text/css').
+             body {
+                background: #BBA3F0
+            }
+            h1 {
+                font-size: 12px;
+                position: absolute;
+                bottom: 5px;
+            }
+    body 
+        div.login-page
+            div.form
+                h1 
+                    a(href='/') Go Back
+                p Sign Up
+                form(method='post' action='/create')
+                    input(type='text' placeholder='username' name='name')
+                    input(type='password' placeholder='password' name='password')
+                    button create 
+                    p.message Already registered? 
+                        a(href='/login') Sign In
+
+
+
