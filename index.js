@@ -172,5 +172,8 @@ app.get('/delete/:id', routes.deletePerson);
 app.get('/view/:id', routes.viewPerson);
 app.get('/people', routes.allPeople)
 
-
-app.listen(3000);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
+//app.listen(3000);
