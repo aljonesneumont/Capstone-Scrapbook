@@ -172,8 +172,12 @@ app.get('/delete/:id', routes.deletePerson);
 app.get('/view/:id', routes.viewPerson);
 app.get('/people', routes.allPeople)
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
+// const PORT = process.env.PORT || 3000;
+// app.listen(PORT, () => {
+//     console.log(`Our app is running on port ${ PORT }`);
+// });
 //app.listen(3000);
+
+var port = process.env.PORT || 3000;
+
+app.listen(port);
