@@ -1,10 +1,10 @@
 const bcrypt = require('bcrypt')
 const {MongoClient, ObjectId} = require('mongodb');
  
-const url = 'mongodb+srv://user:capSton3@capstone.8i0da.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const url = 'mongodb://capstone-scrapbook-17803:firCYmaBHUyD27HbOVgPQuz2Pqe50z@db-capstone-scrapbook-17803.nodechef.com:5398/capstone-scrapbook';
 const client = new MongoClient(url);
  
-const dbName = 'capstone';
+const dbName = 'capstone-scrapbook';
 const db = client.db(dbName);
 const collection = db.collection('data');
 
