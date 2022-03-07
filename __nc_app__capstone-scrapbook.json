@@ -1,0 +1,86 @@
+{
+  "index.js": {
+    "mt": "Fri Feb 25 2022 18:54:00 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\index.js"
+  },
+  "package-lock.json": {
+    "mt": "Fri Feb 25 2022 19:09:59 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\package-lock.json"
+  },
+  "package.json": {
+    "mt": "Fri Feb 25 2022 19:09:59 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\package.json"
+  },
+  "public/login.css": {
+    "mt": "Wed Feb 23 2022 15:08:01 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\public\\login.css"
+  },
+  "public/mountain.jpg": {
+    "mt": "Wed Jan 19 2022 15:22:43 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\public\\mountain.jpg"
+  },
+  "public/outdoors.jpg": {
+    "mt": "Wed Jan 19 2022 14:57:30 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\public\\outdoors.jpg"
+  },
+  "routes/routes.js": {
+    "mt": "Fri Feb 25 2022 19:09:12 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\routes\\routes.js"
+  },
+  "views/edit.pug": {
+    "mt": "Thu Feb 24 2022 01:41:34 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\edit.pug"
+  },
+  "views/index.pug": {
+    "mt": "Fri Feb 25 2022 18:21:27 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\index.pug"
+  },
+  "views/login.pug": {
+    "mt": "Wed Jan 19 2022 17:09:12 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\login.pug"
+  },
+  "views/people.pug": {
+    "mt": "Thu Feb 24 2022 02:14:07 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\people.pug"
+  },
+  "views/picture.pug": {
+    "mt": "Wed Feb 23 2022 21:03:11 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\picture.pug"
+  },
+  "views/signup.pug": {
+    "mt": "Wed Jan 19 2022 17:09:20 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\signup.pug"
+  },
+  "views/view.pug": {
+    "mt": "Thu Feb 24 2022 01:57:24 GMT-0700 (Mountain Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\Aliyah Jones\\Documents\\Capstone-Scrapbook\\Backend\\views\\view.pug"
+  }
+}
